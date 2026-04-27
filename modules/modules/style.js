@@ -33,7 +33,7 @@ style.textContent = `
 
         .topbar button {
             background-color: white;
-            color: #3e2723;
+            color: #FFE69C;
             padding: 10px 20px;
             font-family: 'Arial', serif;
             font-size: 16px;
