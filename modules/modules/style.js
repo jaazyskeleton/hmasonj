@@ -15,7 +15,7 @@ style.textContent = `
         }
 
         .topbar {
-            background-color: #ffd49c;
+            background-color: #ffba42;
             padding: 15px 20px;
             display: flex;
             gap: 10px;
@@ -51,7 +51,7 @@ style.textContent = `
         }
 
         .footer {
-            background-color: #ffd49c;
+            background-color: #ffba42;
             color: white;
             padding: 40px 20px;
             text-align: center;
