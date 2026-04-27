@@ -15,7 +15,7 @@ style.textContent = `
         }
 
         .topbar {
-            background-color: #FFD49C;
+            background-color: #ffd49c;
             padding: 15px 20px;
             display: flex;
             gap: 10px;
@@ -33,7 +33,7 @@ style.textContent = `
 
         .topbar button {
             background-color: white;
-            color: #FFD49C;
+            color: #ffd49c;
             padding: 10px 20px;
             font-family: 'Arial', serif;
             font-size: 16px;
@@ -51,7 +51,7 @@ style.textContent = `
         }
 
         .footer {
-            background-color: #FFD49C;
+            background-color: #ffd49c;
             color: white;
             padding: 40px 20px;
             text-align: center;
