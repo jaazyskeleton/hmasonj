@@ -15,7 +15,7 @@ style.textContent = `
         }
 
         .topbar {
-            background-color: #3e2723;
+            background-color: #FFE69C;
             padding: 15px 20px;
             display: flex;
             gap: 10px;
@@ -35,7 +35,7 @@ style.textContent = `
             background-color: white;
             color: #3e2723;
             padding: 10px 20px;
-            font-family: 'Times New Roman', serif;
+            font-family: 'Arial', serif;
             font-size: 16px;
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -51,7 +51,7 @@ style.textContent = `
         }
 
         .footer {
-            background-color: #3e2723;
+            background-color: #FFE69C;
             color: white;
             padding: 40px 20px;
             text-align: center;
