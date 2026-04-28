@@ -1,4 +1,4 @@
-export function createRenderer(root, config) {space-between";
+export function createRenderer(root, config) {space-between}";
   header.style.alignItems = "center";
   header.style.gap = "12px";
   header.style.flexWrap = "wrap";
