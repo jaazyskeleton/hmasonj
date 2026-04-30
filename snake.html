@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
 </head>
-<body style="font-family: 'Arial', serif; color: #3e2723;">
+<body style="font-family: 'Arial', serif; color: black;">
     <div class="topbar">
         <h2 style="color: white;">H. Mason. J</h2>
 
         <button><a href="https://hmasonj.org/about" style="color: inherit; text-decoration: none;">About</a></button>
     </div>
 
-    <div class="content" style="margin-top: 80px;">
-        
+    <div class="content" style="margin-top: 80px; display: flex; flex-direction: column; align-items: center;">
+        <div id="scoreBoard" style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Score: 0</div>
+        <canvas id="snakeGame" width="800" height="400" style="background-color: #f4f4f4; border: 2px solid #666;"></canvas>
+        <p style="margin-top: 10px; color: #666;">Use Arrow Keys to move. Press <b>R</b> to restart if you lose.</p>
     </div>
+
+    <script type="module">
+        import { startSnake } from './modules/modules/scripts/snake/game.js';
+        startSnake('snakeGame');
+    </script>
 
     <div class="footer">
         <h3>Contact Details</h3>
