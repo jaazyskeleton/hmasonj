@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body style="font-family: 'Arial', serif; color: black;">
+    <div class="topbar">
+        <h2 style="color: white;">H. Mason. J</h2>
+
+        <button><a href="https://hmasonj.org/about" style="color: inherit; text-decoration: none;">About</a></button>
+    </div>
+
+    <div class="content" style="margin-top: 80px; display: flex; flex-direction: column; align-items: center;">
+        <div id="scoreBoard" style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Score: 0</div>
+        <canvas id="tetrisGame" width="800" height="600" style="background-color: #f4f4f4;"></canvas>
+        <p style="margin-top: 10px; color: #666;">Arrows to Move. <b>Space/Up</b> to Rotate. Hold <b>Down</b> to drop faster. <b>R</b> to restart.</p>
+    </div>
+
+    <script type="module">
+        import { startTetris } from './modules/modules/scripts/tetris/game.js';
+        startTetris('tetrisGame');
+    </script>
+
+    <div class="footer">
+        <h3>Contact Details</h3>
+        <p>Email: henrymasonjames@hmasonj.org</p>
+        <p>&copy; 2026. All rights reserved.</p>
+    </div>
+
+    <script type="module" src="./modules/import.js"></script>
+</body>
+</html>
